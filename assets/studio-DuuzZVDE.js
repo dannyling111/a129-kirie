@@ -1,0 +1,1 @@
+import{l as e}from"./link-C20Dsofo.js";import{w as t}from"./catalog-CDsUAcRc.js";import{a as n}from"./store-CmMGd_Zt.js";import{t as r}from"./studio-app-Dhf6m_1B.js";var i=e();function a(){return(0,i.jsx)(t,{children:(0,i.jsx)(r,{initial:n()})})}export{a as component};

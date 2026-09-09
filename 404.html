@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1c1814" />
+    <title>KIRIE 漫画</title>
+    <meta
+      name="description"
+      content="KIRIE 漫画工坊 · 日式 RPG 立绘贴在城市风景上，量化网格拼漫画。"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var r = sessionStorage.getItem("spa-redirect");
+          if (r && r.indexOf("/a129-kirie") === 0) {
+            sessionStorage.removeItem("spa-redirect");
+            if (location.pathname + location.search + location.hash !== r) {
+              history.replaceState(null, "", r);
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/a129-kirie/assets/index-B1xjNhwD.js"></script>
+    <link rel="modulepreload" crossorigin href="/a129-kirie/assets/link-C20Dsofo.js">
+    <link rel="modulepreload" crossorigin href="/a129-kirie/assets/useNavigate-Cbd6xsXN.js">
+    <link rel="modulepreload" crossorigin href="/a129-kirie/assets/preload-helper-hJQWpVaO.js">
+    <link rel="stylesheet" crossorigin href="/a129-kirie/assets/index-CyMOC3Do.css">
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+  </body>
+</html>
