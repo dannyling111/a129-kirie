@@ -10,6 +10,19 @@
       content="KIRIE 漫画工坊 · 日式 RPG 立绘贴在城市风景上，量化网格拼漫画。"
     />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var r = sessionStorage.getItem("spa-redirect");
+          if (r && r.indexOf("/a129-kirie") === 0) {
+            sessionStorage.removeItem("spa-redirect");
+            if (location.pathname + location.search + location.hash !== r) {
+              history.replaceState(null, "", r);
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body class="antialiased">
     <div id="root"></div>
